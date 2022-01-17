@@ -16,22 +16,23 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <androidx.cardview.widget.CardView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            app:cardBackgroundColor="@color/white"
-            app:cardCornerRadius="250dp">
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            app:cardCornerRadius="250dp"
+            android:background="@color/white"
+            app:cardElevation="0dp">
 
             <ImageView
                 android:id="@+id/profile_image"
-                android:layout_width="104dp"
-                android:layout_height="104dp"
+                android:layout_width="95dp"
+                android:layout_height="95dp"
                 android:scaleType="centerCrop"
                 android:src="@drawable/user_profile" />
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:layout_width="35dp"
-            android:layout_height="35dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:layout_gravity="bottom|end"
             android:layout_marginStart="10dp"
             android:layout_marginTop="10dp"
@@ -40,8 +41,8 @@
 
             <ImageView
                 android:id="@+id/profile_image_edit"
-                android:layout_width="35dp"
-                android:layout_height="35dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
                 android:padding="5dp"
                 android:scaleType="centerCrop"
                 android:src="@drawable/edit_profile"
@@ -155,12 +156,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Delete Business"
-        android:textSize="20sp"
+        android:textSize="18sp"
         android:fontFamily="@font/lato"
         android:textColor="@color/red"
         android:layout_marginTop="30dp"
         android:drawableStart="@drawable/delete"
         android:drawableTint="@color/red"
+        android:textStyle="bold"
         android:drawablePadding="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -172,10 +174,12 @@
         style="@style/Widget.MaterialComponents.Button"
         android:text="Save"
         android:textAllCaps="false"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="50dp"
         android:textSize="18sp"
         app:cornerRadius="10dp"
-        android:background="@color/purple_500"
+        app:fontFamily="@font/lato"
+        android:padding="12dp"
+        app:background="@color/purple_500"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/delete_business"
