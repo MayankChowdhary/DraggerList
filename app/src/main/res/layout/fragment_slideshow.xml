@@ -33,6 +33,14 @@
                 layout="@layout/deleted_list_item"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="40dp" />
+            <include
+                layout="@layout/edit_profile_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

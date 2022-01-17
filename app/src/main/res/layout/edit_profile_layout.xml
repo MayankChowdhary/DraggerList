@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/edit_profile_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <FrameLayout
+        android:id="@+id/profile_image_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="250dp">
+
+            <ImageView
+                android:id="@+id/profile_image"
+                android:layout_width="104dp"
+                android:layout_height="104dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/user_profile" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="bottom|end"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            app:cardBackgroundColor="@color/purple_500"
+            app:cardCornerRadius="250dp">
+
+            <ImageView
+                android:id="@+id/profile_image_edit"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:padding="5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/edit_profile"
+                app:tint="@color/white" />
+        </androidx.cardview.widget.CardView>
+    </FrameLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/business_name_layout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Business Name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/profile_image_parent">
+
+        <!--this is the actual edit text which takes the input-->
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/business_name_edit"
+            android:layout_width="match_parent"
+            android:inputType="text"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/business_category_layout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Choose Business Type"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:endIconMode="dropdown_menu"
+        app:layout_constraintTop_toBottomOf="@id/business_name_layout">
+
+        <!--this is the actual edit text which takes the input-->
+        <AutoCompleteTextView
+            android:id="@+id/business_category_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/user_name_layout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Your Name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/business_category_layout">
+
+        <!--this is the actual edit text which takes the input-->
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/user_name_edit"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/phone_num_layout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Registered Phone Number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        android:enabled="false"
+        app:layout_constraintTop_toBottomOf="@id/user_name_layout">
+
+        <!--this is the actual edit text which takes the input-->
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/phone_num_edit"
+            android:layout_width="match_parent"
+            android:text="1234567890"
+            android:inputType="phone"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/email_layout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/phone_num_layout">
+
+        <!--this is the actual edit text which takes the input-->
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/email_edittext"
+            android:layout_width="match_parent"
+            android:inputType="textEmailAddress"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/delete_business"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Business"
+        android:textSize="20sp"
+        android:fontFamily="@font/lato"
+        android:textColor="@color/red"
+        android:layout_marginTop="30dp"
+        android:drawableStart="@drawable/delete"
+        android:drawableTint="@color/red"
+        android:drawablePadding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/email_layout"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.Button"
+        android:text="Save"
+        android:textAllCaps="false"
+        android:layout_marginTop="40dp"
+        android:textSize="18sp"
+        app:cornerRadius="10dp"
+        android:background="@color/purple_500"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/delete_business"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
