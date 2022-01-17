@@ -6,16 +6,17 @@
     android:layout_height="match_parent"
     android:background="#F6F6F6"
     tools:context=".ui.home.HomeFragment">
+
     <LinearLayout
         android:id="@+id/drag_hint_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:orientation="horizontal"
+        android:background="#003F8E"
         android:gravity="center_vertical|start"
-        android:background="#003F8E">
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <TextView
             android:id="@+id/drag_hint"
@@ -31,13 +32,13 @@
             android:textColor="@color/white"
             android:textSize="17sp"
             android:visibility="visible" />
+
         <ImageView
             android:layout_width="20dp"
             android:layout_height="20dp"
             android:layout_margin="5dp"
             android:src="@drawable/ic_scroll"
-            app:tint="@color/white"
-            />
+            app:tint="@color/white" />
 
         <TextView
             android:id="@+id/drag_hint2"
@@ -55,7 +56,6 @@
     </LinearLayout>
 
 
-
     <LinearLayout
         android:id="@+id/btn_layout"
         android:layout_width="match_parent"
@@ -63,8 +63,8 @@
         android:gravity="center"
         android:orientation="horizontal"
         android:paddingStart="40dp"
-        android:paddingEnd="40dp"
         android:paddingTop="10dp"
+        android:paddingEnd="40dp"
         android:paddingBottom="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -85,5 +85,5 @@
         app:layout_constraintBottom_toTopOf="@+id/btn_layout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/drag_hint_layout"/>
+        app:layout_constraintTop_toBottomOf="@id/drag_hint_layout" />
 </androidx.constraintlayout.widget.ConstraintLayout>
