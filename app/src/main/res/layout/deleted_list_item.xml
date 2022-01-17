@@ -10,7 +10,7 @@
         android:id="@+id/deleted_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="20dp"
         android:fontFamily="@font/lato"
         android:text="Register Name"
@@ -25,7 +25,7 @@
     <TextView
         android:id="@+id/deleted_expiry_text"
         android:layout_width="265dp"
-        android:layout_height="25dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="20dp"
         android:ellipsize="end"
@@ -41,18 +41,19 @@
 
     <ImageView
         android:id="@+id/deleted_arrow"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
         android:layout_marginEnd="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@android:drawable/arrow_down_float" />
+        app:tint="@color/gray_border"
+        app:srcCompat="@drawable/down_arrow" />
 
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="@color/black"
+        android:background="@color/gray_border"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

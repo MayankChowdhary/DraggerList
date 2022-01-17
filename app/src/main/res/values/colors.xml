@@ -13,4 +13,6 @@
     <color name="green_500">#4CAF50</color>
     <color name="indigo_400">#5C6BC0</color>
     <color name="gray_800">#224242</color>
+    <color name="gray_border">#9E9E9E</color>
+
 </resources>
