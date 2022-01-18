@@ -37,8 +37,8 @@
 
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/iv_pew"
-                android:layout_width="25dp"
-                android:layout_height="25dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
                 android:tint="@color/white"
                 android:layout_marginEnd="20dp"
                 android:src="@drawable/register_edit"

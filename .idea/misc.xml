@@ -5,11 +5,26 @@
       <map>
         <entry key="..\:/Users/THOR/AndroidStudioProjects/Draggable/app/src/main/res/drawable-v24/column_drawable.xml" value="0.14814814814814814" />
         <entry key="..\:/Users/THOR/AndroidStudioProjects/Draggable/app/src/main/res/drawable/button_box.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/THOR/AndroidStudioProjects/Draggable/app/src/main/res/drawable/green_radio_checked.xml" value="0.1" />
+        <entry key="..\:/Users/THOR/AndroidStudioProjects/Draggable/app/src/main/res/drawable/green_radio_drawable.xml" value="0.1" />
+        <entry key="..\:/Users/THOR/AndroidStudioProjects/Draggable/app/src/main/res/drawable/green_radio_unchecked.xml" value="0.1" />
         <entry key="..\:/Users/THOR/AndroidStudioProjects/Draggable/app/src/main/res/drawable/ic_scroll.xml" value="0.1388888888888889" />
         <entry key="..\:/Users/THOR/AndroidStudioProjects/Draggable/app/src/main/res/drawable/list_item_back.xml" value="0.17777777777777778" />
+        <entry key="..\:/Users/THOR/AndroidStudioProjects/Draggable/app/src/main/res/drawable/purple_radio_checked.xml" value="0.1" />
+        <entry key="..\:/Users/THOR/AndroidStudioProjects/Draggable/app/src/main/res/drawable/purple_radio_unchecked.xml" value="0.1" />
+        <entry key="..\:/Users/THOR/AndroidStudioProjects/Draggable/app/src/main/res/drawable/purple_theme_drawable.xml" value="0.1" />
+        <entry key="..\:/Users/THOR/AndroidStudioProjects/Draggable/app/src/main/res/drawable/radio_checked.xml" value="0.2512820512820513" />
+        <entry key="..\:/Users/THOR/AndroidStudioProjects/Draggable/app/src/main/res/drawable/radio_unchecked.xml" value="0.2512820512820513" />
+        <entry key="..\:/Users/THOR/AndroidStudioProjects/Draggable/app/src/main/res/drawable/radiobutton_drawable.xml" value="0.2512820512820513" />
+        <entry key="..\:/Users/THOR/AndroidStudioProjects/Draggable/app/src/main/res/drawable/red_radio_checked.xml" value="0.1" />
+        <entry key="..\:/Users/THOR/AndroidStudioProjects/Draggable/app/src/main/res/drawable/red_radio_drawable.xml" value="0.1" />
+        <entry key="..\:/Users/THOR/AndroidStudioProjects/Draggable/app/src/main/res/drawable/red_radio_unchecked.xml" value="0.1" />
         <entry key="..\:/Users/THOR/AndroidStudioProjects/Draggable/app/src/main/res/drawable/reg_item_back.xml" value="0.17592592592592593" />
         <entry key="..\:/Users/THOR/AndroidStudioProjects/Draggable/app/src/main/res/drawable/reg_status_back.xml" value="0.17592592592592593" />
         <entry key="..\:/Users/THOR/AndroidStudioProjects/Draggable/app/src/main/res/drawable/register_manager_icon.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/THOR/AndroidStudioProjects/Draggable/app/src/main/res/drawable/white_radio_checked.xml" value="0.1" />
+        <entry key="..\:/Users/THOR/AndroidStudioProjects/Draggable/app/src/main/res/drawable/white_radio_unchecked.xml" value="0.1" />
+        <entry key="..\:/Users/THOR/AndroidStudioProjects/Draggable/app/src/main/res/drawable/white_theme_drawable.xml" value="0.1" />
         <entry key="..\:/Users/THOR/AndroidStudioProjects/Draggable/app/src/main/res/layout-w1240dp/content_scrolling.xml" value="0.1109375" />
         <entry key="..\:/Users/THOR/AndroidStudioProjects/Draggable/app/src/main/res/layout-w936dp/content_scrolling.xml" value="0.1" />
         <entry key="..\:/Users/THOR/AndroidStudioProjects/Draggable/app/src/main/res/layout/activity_list_item.xml" value="0.23697916666666666" />
