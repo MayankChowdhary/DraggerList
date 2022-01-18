@@ -29,4 +29,11 @@
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">@android:color/white</item>
     </style>
+
+    <style name="expanded_app_bar" parent="@android:style/TextAppearance">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="fontFamily">@font/lato</item>
+        <item name="android:textStyle">bold</item>
+    </style>
 </resources>

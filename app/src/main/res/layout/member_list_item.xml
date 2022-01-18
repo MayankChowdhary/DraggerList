@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/member_item_parent"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:background="@color/white"
+        app:cardCornerRadius="250dp"
+        android:layout_weight="0"
+        app:cardElevation="0dp">
+
+        <ImageView
+            android:id="@+id/member_image"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:scaleType="centerInside"
+            android:background="@color/green_500"
+            app:tint="@color/white"
+            android:padding="12dp"
+            android:src="@drawable/add_member" />
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Members"
+        android:layout_weight="2"
+        android:fontFamily="@font/lato"
+        android:textSize="22sp"
+        android:textColor="@color/black"
+        android:layout_marginStart="20dp"/>
+
+</LinearLayout>

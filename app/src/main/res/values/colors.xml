@@ -15,4 +15,9 @@
     <color name="gray_800">#224242</color>
     <color name="gray_border">#9E9E9E</color>
     <color name="red">#FB0000</color>
+    <color name="theme_indigo">#5C6BC0</color>
+    <color name="theme_white">#F5F5F5</color>
+    <color name="theme_purple">#6200EA</color>
+    <color name="theme_green">#64DD17</color>
+    <color name="theme_red">#D50000</color>
 </resources>
